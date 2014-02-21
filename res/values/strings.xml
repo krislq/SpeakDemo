@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpeakDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <string name="content_accept_select">接受请按1，拒绝请按2，联系租客请按3。</string>
+    <string name="content_return_select">已经还车请按1，还未还车请按2，如需联系客服请按3。</string>
+    <string name="content_return_confirm">请再次确认您已经将车停到了指定地点，并锁好了车门，如果车辆出现任何情况，请立即联系车主。如果车辆已经安全停放且未发生异常情况请按1，还需要检查车辆情况请按2。</string>
+    <string name="content_return_over">PP租车提醒您，租车超时时间将以两倍租金计算，且须支付超时期间的保险费用，如您需要延长租用时间，请联系车主确认，拨打客服热线延长租用时间，联系车主请按1，不需其他服务请挂机，谢谢。</string>
+
+</resources>
