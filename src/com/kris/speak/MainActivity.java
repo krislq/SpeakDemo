@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         mEtContent = (EditText)findViewById(R.id.et_content);
 
-        mEtContent.setText("如有异议，请联系Kris，再见。");
+        mEtContent.setText("确认请按1，拒绝请按2.");
         init();
     }
     
@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
         // 设置音调
         mTts.setParameter(SpeechSynthesizer.PITCH, "50");
 //        mTts.setParameter("tts_audio_path", "/sdcard/kkk.mp3");
-        mTts.setParameter(SpeechConstant.PARAMS, "tts_audio_path=/sdcard/speak_result.pcm");
+        mTts.setParameter(SpeechConstant.PARAMS, "tts_audio_path=/sdcard/process_4.pcm");
     }
 
     @Override
